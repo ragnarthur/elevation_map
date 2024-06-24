@@ -83,4 +83,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Rasterio](https://rasterio.readthedocs.io/en/latest/)
 - [Matplotlib](https://matplotlib.org/)
 
-Fim
