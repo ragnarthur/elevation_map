@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local configuration files
+*.local
+*.env
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Log files
+*.log
+
+# Data files
+# Ignore the raw data files, but not the processed results if necessary
+data/
+*.tif
+*.shp
+*.shx
+*.dbf
+*.prj
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Temporary files and folders
+tmp/
+temp/
