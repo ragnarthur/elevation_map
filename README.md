@@ -29,6 +29,14 @@ This project generates an elevation map of the state of Minas Gerais, Brazil, us
    pip install -r requirements.txt
    ```
 
+## Data Acquisition
+
+To generate the elevation map, you will need to download Digital Elevation Model (DEM) data. You can obtain these data from the following sources:
+
+- [USGS Earth Explorer](https://earthexplorer.usgs.gov/): A comprehensive platform for accessing various types of satellite imagery and geospatial data. Register for an account, define your Area of Interest (AOI), and download DEM files from the "SRTM 1 Arc-Second Global" dataset for high-resolution elevation data.
+
+- [NASA Earthdata](https://earthdata.nasa.gov/): Provides access to a wide range of Earth science data, including elevation data from the Shuttle Radar Topography Mission (SRTM).
+
 ## Usage
 
 1. Ensure you have the required geospatial data files in the appropriate directories.
@@ -63,7 +71,17 @@ plt.show()
 
 Here is a screenshot of the generated elevation map:
 
-![Elevation Map Screenshot](screenshots/minas_gerais.png)
+![Elevation Map Screenshot](screenshots/elevation_map.png)
+
+## Project Details
+
+This project was created to provide a visual representation of the elevation data for the state of Minas Gerais, Brazil. The main objective was to use Python and various geospatial libraries to process and visualize DEM data. The project involves several key steps:
+
+1. **Data Acquisition**: Obtaining the necessary geospatial data (DEM and shapefiles) from reliable sources such as USGS Earth Explorer and NASA Earthdata.
+2. **Data Processing**: Using `geopandas` to load the shapefile of Minas Gerais and `rasterio` to read the DEM data.
+3. **Visualization**: Creating an elevation map using `matplotlib` to plot the data and provide a visual representation of the terrain.
+
+This project showcases the application of geospatial data processing and visualization techniques in Python, highlighting the capabilities of libraries such as `geopandas`, `rasterio`, and `matplotlib`.
 
 ## Contributing
 
@@ -82,4 +100,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [GeoPandas](https://geopandas.org/)
 - [Rasterio](https://rasterio.readthedocs.io/en/latest/)
 - [Matplotlib](https://matplotlib.org/)
-
+- [USGS Earth Explorer](https://earthexplorer.usgs.gov/) for providing the DEM data
+- [NASA Earthdata](https://earthdata.nasa.gov/) for additional geospatial data
