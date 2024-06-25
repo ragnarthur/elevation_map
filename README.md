@@ -71,7 +71,7 @@ plt.show()
 
 Here is a screenshot of the generated elevation map:
 
-![Elevation Map Screenshot](screenshots/elevation_map.png)
+![Elevation Map Screenshot](screenshots/minas_gerais.png)
 
 ## Project Details
 
